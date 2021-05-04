@@ -72,6 +72,9 @@ def main():
     st.header(" Resposta ")
     resposta = Armstrong_Modulator(f1 = f1_1, df1 = df1_1, f4 = f4_1, df4=df4_1, f0=df0_1).f2_f3_f0()
 
+    st.write("Written by: Victor H W Freire")
+    st.write("Author e-mail: v@victorhwfreire.com")
+
 if __name__ == '__main__':
     main()
 
